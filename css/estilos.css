@@ -1,0 +1,38 @@
+body {
+    background: #d9a7c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-size: 16px;
+
+}
+main .inf{
+    color: white;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+.card:hover{
+    opacity: 0.7;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+h1 .title{
+    text-align: center;
+    color: black;
+}
+h1 .cat{
+    color: white;
+}
+@media (max-width: 576px){
+    .card-text{
+        font-size: 0.8rem;
+    }
+}
+.nav-link {
+    font-weight: 600;
+}
